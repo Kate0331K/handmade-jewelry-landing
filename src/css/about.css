@@ -1,0 +1,119 @@
+.about {
+    padding: 64px 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+.about .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 64px;
+}
+
+.about-title {
+    max-width: 870px;
+    margin: 0 auto 32px;
+
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+.about-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.about-card {
+    width: calc((100% - 64px) / 3);
+    height: 194px;
+    padding: 32px 12px;
+
+    background-color: #f2f2f2;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+}
+
+.about-card-title {
+    margin-bottom: 24px;
+
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.about-card-text {
+    max-width: 392px;
+    margin: 0 auto;
+
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* TABLET */
+@media screen and (min-width: 600px) and (max-width: 1439px) {
+    .about .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .about-title {
+        max-width: 704px;
+        font-size: 36px;
+    }
+
+    .about-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-card {
+        width: 100%;
+        max-width: 704px;
+        height: 170px;
+    }
+
+    .about-card-text {
+        max-width: 650px;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 599px) {
+    .about .container {
+        width: 100%;
+        max-width: 375px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    .about-title {
+        width: 100%;
+        max-width: 335px;
+        font-size: 36px;
+    }
+
+    .about-list {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about-card {
+        width: 100%;
+        max-width: 335px;
+        height: auto;
+        min-height: 154px;
+    }
+
+    .about-card-text {
+        max-width: 311px;
+    }
+}
