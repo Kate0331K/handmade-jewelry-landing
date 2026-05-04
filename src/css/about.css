@@ -6,7 +6,6 @@
 .about-container {
     width: 335px;
     margin: 0 auto;
-    padding: 0;
 }
 
 .about-img {
@@ -23,7 +22,6 @@
 
 .about-title {
     margin: 0 0 24px 0;
-
     font-family: "Sora", sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -34,7 +32,6 @@
 
 .about-text {
     margin: 0 0 24px 0;
-
     font-family: "Mulish", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -46,7 +43,6 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-
     margin: 0;
     padding: 0;
     list-style: none;
@@ -56,7 +52,6 @@
     display: flex;
     align-items: center;
     gap: 8px;
-
     font-family: "Mulish", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -101,7 +96,7 @@
         width: 1312px;
         display: flex;
         align-items: center;
-        gap: 32px;
+        gap: 80px;
     }
 
     .about-img {
@@ -111,7 +106,7 @@
     }
 
     .about-content {
-        width: 640px;
+        width: 592px;
     }
 
     .about-title {
